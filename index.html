@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icons8-bookmark.svg" type="image/x-icon">
+</head>
+<body>
+
+
+    <div class="container pt-2 text-light"> 
+    <h1>Book Mark</h1>    
+    <div class="form-project text-center my-5 py-4 "> 
+        <h2>Bookmark Your Favorite Sites</h2>
+        <div class="form-group mx-5">
+            <label for="" class="text-center">Site Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Bookmark Name">
+        </div>
+        
+        <div class="form-group mx-5">
+            <label for="" class="text-center">Site URL</label>
+            <input type="text" id="url" class="form-control" placeholder="Website Name">
+        </div>
+        <button class="btn btn-primary my-3" id="addBtn" >Submit</button>
+        
+    </div>
+</div>
+
+<input class="form-control my-4 w-50 m-auto"  onclick="search(this.value)" placeholder="Search......."  >
+
+
+<div class="output w-50 m-auto bg link-light">
+        <table class="table">
+            <thead>
+
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
